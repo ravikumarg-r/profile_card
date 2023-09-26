@@ -17,3 +17,12 @@ Image Panning Assignment
     <key>NSMicrophoneUsageDescription</key>
     <string>Post videos to profile</string>
 
+#Install pod files in ios using following commands
+
+# STEP 1: Install ffi
+sudo arch -x86_64 gem install ffi
+
+# STEP 2: Re-install dependencies
+arch -x86_64 pod install
+
+# Android changes might be required to install gradle to suitable version in your machine 
